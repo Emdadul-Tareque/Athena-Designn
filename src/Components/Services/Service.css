@@ -1,0 +1,11 @@
+.service {
+  background-color: #fafffd;
+}
+
+.service-header h2 {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.service-header p {
+  opacity: 0.5;
+}

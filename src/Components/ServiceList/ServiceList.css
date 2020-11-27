@@ -1,0 +1,25 @@
+.service-card {
+  height: 270px;
+  width: 250px;
+  transition: transform 0.3s;
+}
+
+.service-card:hover {
+  background-color: #ffffff;
+  box-shadow: 3px 3px 3px 3px lightgray;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  transform: translateY(-1em) translateX(-0.3em);
+}
+
+.service-img img {
+  height: 80px;
+}
+
+.service-content {
+  padding: 20px;
+}
+
+.service-details p {
+  opacity: 0.3;
+}

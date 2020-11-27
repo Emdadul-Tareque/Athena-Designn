@@ -1,0 +1,8 @@
+.content-text h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 70px;
+}
+
+.content-text p {
+  opacity: 0.5;
+}

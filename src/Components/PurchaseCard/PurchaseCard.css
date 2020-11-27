@@ -1,0 +1,37 @@
+.purchase-card {
+  height: 530px;
+  width: 300px;
+  margin-right: 50px;
+  padding: 30px;
+  transition: transform 0.3s;
+  box-shadow: 3px 3px 3px 3px lightgrey;
+}
+
+.purchase-card:hover {
+  border: 4px solid gray;
+  box-shadow: 3px 3px 3px 3px lightgray;
+  transform: translateY(-1em) translateX(-0.3em);
+}
+
+.purchase-card h2 {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.bottom-line {
+  width: 240px;
+  height: 2px;
+  background-color: lightgreen;
+  transition: width 0.5s;
+}
+
+.purchase-card:hover .bottom-line {
+  width: 0px;
+}
+
+#order-btn {
+  display: none;
+}
+
+.purchase-card:hover #order-btn {
+  display: inline;
+}
